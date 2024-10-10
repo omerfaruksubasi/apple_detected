@@ -52,3 +52,33 @@ To use this repository and run the code, you'll need to install the necessary de
 1. Clone the repository:
    ```bash
    git clone https://github.com/omerfaruksubasi/apple_detected.git
+
+2. Navigate to the repository folder:
+   ```bash
+   cd apple_detected
+
+4. Create a virtual environment and activate it:
+   ```bash
+   python -m venv venv
+   source venv/bin/activate   # On Windows use `venv\Scripts\activate`
+
+5. Install the required packages:
+   ```bash
+   pip install -r requirements.txt
+##Running YOLOv8 for Apple Detection
+To detect and segment apples using YOLOv8, follow these steps:
+
+1. Training the Model: If you want to train YOLOv8 on your own dataset, you can modify the dataset path in the configuration file and run:
+   ```bash
+   yolo train model=yolov8-seg.pt data=apple_dataset.yaml epochs=50 imgsz=640
+2. Running Inference: To detect apples in an image or video using a pre-trained model, use the following command:
+   ```bash
+   yolo predict model=best.pt source=apple_images/ save=True
+This command will run inference on the images in the apple_images/ directory, and save the results with the detected apples segmented.
+
+## Results
+The following image shows an example of apple detection and segmentation using YOLOv8:
+
+!(apple_segmantion_ressult.png)()
+
+In this image, each detected apple is outlined with a mask, allowing for precise identification and localization. The segmentation helps in applications where understanding the exact location and size of the apples is crucial, such as in automated harvesting or quality control.
