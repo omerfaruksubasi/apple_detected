@@ -1,3 +1,5 @@
+![segmantion_detect](https://github.com/omerfaruksubasi/apple_detected/raw/main/segmantion.jpg)
+
 # Apple Detection and Segmentation using YOLOv8
 
 This repository demonstrates **apple detection and segmentation** using the **YOLOv8** model. YOLOv8 is the latest version of the You Only Look Once (YOLO) family of algorithms, which is well-known for its real-time object detection capabilities. In this project, we use YOLOv8 for segmenting apples from images, helping us not only detect their presence but also outline their exact locations.
