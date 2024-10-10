@@ -86,6 +86,7 @@ This command will run inference on the images in the apple_images/ directory, an
 ## Results
 The following image shows an example of apple detection and segmentation using YOLOv8:
 
-!(apple_segmantion_ressult.png)(https://github.com/omerfaruksubasi/apple_detected/blob/main/path_to_save_output.jpg)
+![apple_segmantion_ressult](https://github.com/omerfaruksubasi/apple_detected/raw/main/path_to_save_output.jpg)
+
 
 In this image, each detected apple is outlined with a mask, allowing for precise identification and localization. The segmentation helps in applications where understanding the exact location and size of the apples is crucial, such as in automated harvesting or quality control.
