@@ -1,4 +1,5 @@
-![segmantion_detect](https://github.com/omerfaruksubasi/apple_detected/raw/main/segmantion.jpg)
+![apple_segmantion_result](https://github.com/omerfaruksubasi/apple_detected/raw/main/segmantaion.jpg)
+
 
 # Apple Detection and Segmentation using YOLOv8
 
